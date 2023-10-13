@@ -24,7 +24,7 @@
         </createTable>
 
         <addForeignKeyConstraint baseTableName="libri" baseColumnNames="id_autore" constraintName="FK_LIBRI_ON_AUTORI"
-                                 referencedTableName="autore"
+                                 referencedTableName="autori"
                                  referencedColumnNames="id"/>
 
         <addForeignKeyConstraint baseTableName="libri" baseColumnNames="id_casa_editrice"
